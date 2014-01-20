@@ -1,4 +1,3 @@
 PowershellTools
 ===============
-
-Powershell tools and snipets
+Modules, scripts and snippets are at home here!
