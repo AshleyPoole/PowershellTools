@@ -12,12 +12,14 @@
   </style>
 </head>
 <body>
-<p class="p1">I RECOMMEND running this in Preview Mode first and manually inspecting the list of folders.</p>
-<p class="p2"><b></b><br></p>
+<p class="p1">Running the script will query IIS for all websites that’s physical path ends with ‘content’. This indicates that the website was powerdeployed.</p>
+<p class="p2"><br></p>
+<p class="p1">I RECOMMEND running this in Preview Mode first and manually inspecting the list of folders that are going to be deleted. If happy, then run the script in delete mode, see below.</p>
+<p class="p2"><br></p>
 <p class="p1"><b>Preview Mode - Shows what folders it thinks should be deleted</b></p>
 <p class="p1">&gt;CleanupIISWebsiteDeployments.ps1<span class="Apple-converted-space"> </span></p>
 <p class="p2"><br></p>
 <p class="p1"><b>Delete Mode - Deletes folders it thinks should be delete</b></p>
-<p class="p1">&gt;CleanupIISWebsiteDeployments.ps1 -deleteEnabled true</p>
+<p class="p1">&gt;CleanupIISWebsiteDeployments.ps1 -delete true</p>
 </body>
 </html>
