@@ -1,7 +1,7 @@
 ﻿########################################################################
 # Created By Ashley Poole - http://www.ashleypoole.co.uk               #
 # Updates NuGet package(s) for solutions within a specified repository #
-# SourceTree_UpdateNuGetPackage.ps1                                    #
+# SourceTree_UpdateNuGetPackages.ps1                                    #
 ########################################################################
 
 Param(
