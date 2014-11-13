@@ -44,7 +44,7 @@ If ($NuGetExe)
         Start-Process $NuGetExe $ArgsRestore -NoNewWindow -Wait
 
         # Update Package
-        Start-Process $NuGetEx $ArgsUpdate -NoNewWindow -Wait
+        Start-Process $NuGetExe $ArgsUpdate -NoNewWindow -Wait
     }
 }
 else
