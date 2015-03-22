@@ -1,6 +1,6 @@
 # ExternalSSLTester.ps1 #
 ## About ##
-This PowerShell script can be used to check the SSL implementations of any public facing server. To achieve this, the script consumes the SSL Labs Assessment Api using a .NET library called SSLLWrapper which is a wrapper for the SSL Labs Api. This wrapper is also written by myself and can be found at [GitHub](https://github.com/AshleyPoole/SSLLWrapper), [NuGet](https://www.nuget.org/packages/SSLLWrapper/) or [My Website](http://www.ashleypoole.co.uk/ssllwrapper).
+This PowerShell script can be used to check the SSL implementations of any public facing server. To achieve this, the script consumes the SSL Labs Assessment Api using a .NET library called SSLLabs Api Wrapper (Previously called SSLLWrapper). This wrapper is also written by myself and can be found at [GitHub](https://github.com/AshleyPoole/SSLLabs-api-Wrapper), [NuGet](https://www.nuget.org/packages/SSLLabsapiwrapper) or [My Website](http://www.ashleypoole.co.uk/ssllabs-api-wrapper?utm_source=github&utm_medium=powershelltoolsrepo&utm_campaign=ssllwrapper).
 
 ## Usage ##
 ExternalSSLTester.ps1 can be invoked for use with a single host or a predefined selection of hosts which are passed in as a file path. Below are examples of both options:
